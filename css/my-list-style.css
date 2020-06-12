@@ -1,0 +1,49 @@
+body {
+  margin: 0 0 0 0;
+}
+#header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 300px;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0,0,0, 0.1)), url(../images/motivator.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+#title {
+  font-size: 36px;
+  font-weight: bold;
+  font-family: "Roboto Slab", serif;
+  color: white;
+}
+#motivator {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0px 0px 0px 0px;
+}
+#motivator-img {
+  height: 100px;
+  border: white 3px solid;
+}
+#article{
+  display: flex;
+  justify-content: center;
+}
+.content-section {
+  width: calc(100%*2/3);
+  display: flex;
+}
+.content-topic {
+  font-size: 35px;
+  text-align: right;
+  background-color: hotpink;
+  width: 15%;
+}
+.content-text {
+  width: 85%;
+  background-color: green;
+}
